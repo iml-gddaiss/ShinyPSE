@@ -1,4 +1,4 @@
-library(PSEtoDataframe)
+
 
 make_db_connection <- function() {
   ORACLE_HOST <- "NATP71.NAT.DFO-MPO.CA"
@@ -25,11 +25,12 @@ source_info_df <- source_info_list()
 str(source_info_df)
 View(source_info_df)
 
+
+source("ui.R")
+source("server.R")
+
 # js files are properly sourced this way
 runApp()
 
-
 # js files are not sourced this way
-source("ui.R")
-source("server.R")
 shinyApp(ui = ui, server = server)

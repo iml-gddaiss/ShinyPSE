@@ -1,5 +1,9 @@
-#
-Mettre a jour les champs suivants dans `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md` et `SECURITY.md` :
- - `ENTER_EMAIL@dfo-mpo.gc.ca`
- - `PROJECT_NAME`
-  
+# ShinyPSE
+
+# prereqs
+
+install `PSEtoDataframe`
+```
+pak::pak("iml-gddaiss/iml-gddaiss/pse_to_dataframe")
+```
+
