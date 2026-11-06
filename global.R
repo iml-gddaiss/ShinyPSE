@@ -4,7 +4,7 @@ make_db_connection <- function() {
   ORACLE_SID <- "OKENP27"
   ORACLE_USER <- Sys.getenv("ORACLE_USER")
   ORACLE_PASSWORD <-  Sys.getenv("ORACLE_PASSWORD")
-  ORACLE_DRIVER <- "Oracle in 12.2.0_Instant_x64"
+  ORACLE_DRIVER <- Sys.getenv("ORACLE_DRIVER")
 
   connection_string <- paste(
     "Driver=", ORACLE_DRIVER, ";",
