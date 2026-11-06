@@ -1,0 +1,8 @@
+# Ce fichier est a titre d'exemple
+# Veullez faire une copie .Renviron et changer les valeurs
+
+ORACLE_USER = ""
+ORACLE_PASSWORD = ""
+
+# List available drivers using odbc::odbcListDrivers()
+ORACLE_DRIVER = "Oracle in 12.2.0_Instant_x64"
